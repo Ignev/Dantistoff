@@ -248,6 +248,7 @@ border-radius: 12px;
 }
 .price__table {
   width: 100%;
+  margin-bottom: 20px;
 }
 .table__list {
   width: 100%;
@@ -340,6 +341,19 @@ border-radius: 12px;
 .table__value-default{
   margin-right: 40px;
 }
+
+.price__btn{
+  width: 100%;
+  background: #FB7E01;
+  border-radius: 12px;
+  padding-top: 18px;
+  padding-bottom: 18px;
+  font-family: "Circe-bold";
+  font-size: 20px;
+  line-height: 29px;
+  color: #FFFFFF;
+}
+
 @media screen and (max-width: 900px) {
   /* Installments */
   .installments{
