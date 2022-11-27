@@ -156,8 +156,7 @@ border-radius: 12px;
   line-height: 27px;
   letter-spacing: -0.02em;
   color: #ffffff;
-  padding-top: 10px;
-  padding-bottom: 10px;
+  padding: 10px;
 }
 .table__bold {
   border-bottom: 1.5px solid #fb7e01;
@@ -336,7 +335,7 @@ border-radius: 12px;
   }
   .title{
     font-size: 32px;
-    line-height: 57px;
+    line-height: 45px;
   }
 
   .installments__item{
