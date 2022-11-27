@@ -215,6 +215,7 @@ border-radius: 12px;
 }
 
 .img__tooltip {
+  display: none;
   opacity: 0;
   transition: 0.3s ease;
   position: absolute;
@@ -243,6 +244,7 @@ border-radius: 12px;
 }
 
 .item__img:hover .img__tooltip {
+  display: block;
   opacity: 1;
   transition: 0.3s ease;
 }
@@ -424,8 +426,6 @@ border-radius: 12px;
   }
   .value__second {
     margin-right: 40px;
-  }
-  .value__sale {
   }
   .value__second-cross {
     order: 1;
