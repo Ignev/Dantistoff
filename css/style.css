@@ -399,13 +399,8 @@ border-radius: 12px;
   color: #FFFFFF;
 }
 
-@media screen and (max-width: 900px) {
-  /* Installments */
-  .installments{
-    padding: 20px 20px;
-    background-image: url(../img/installments-bg-mobile.png);
-    align-items: center;
-  }
+@media screen and (max-width: 1000px) {
+
   .title{
     font-size: 32px;
     line-height: 45px;
@@ -422,23 +417,6 @@ border-radius: 12px;
     padding: 9px 26px;
   }
 
-  .installments__banks{
-    display: flex;
-    align-items: center;
-    width: 100%;
-    justify-content: space-between;
-    margin-bottom: 20px;
-  }
-
-  .banks__item{
-    max-width: 60px;
-  }
-
-  .banks__alfa{
-    height: 30px;
-  }
-
-  /* Price */
 
   .screen {
     width: 100%;
@@ -496,5 +474,30 @@ border-radius: 12px;
   }
   .table__value-default{
     margin-right: 0;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  /* Installments */
+  .installments{
+    padding: 20px 20px;
+    padding-top: 200px;
+    background-image: url(../img/installments-bg-mobile.png);
+    align-items: center;
+  }
+  .title{
+    font-size: 32px;
+    line-height: 45px;
+  }
+
+  .installments__item{
+    font-size: 15px;
+    line-height: 27px;
+  }
+
+  .installments__button{
+    font-size: 16px;
+    line-height: 25px;
+    padding: 9px 26px;
   }
 }
